@@ -1,0 +1,5 @@
+---
+roles:
+  - name: fla.git
+    src: git@github.com:flassagne/git.git
+    scm: git

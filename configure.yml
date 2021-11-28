@@ -1,0 +1,14 @@
+- name: Install Linux Dev Station
+  hosts: stations
+  collections:
+    - fla.linux
+  roles:
+    - { role: update-distrib, tags: ["update"] }
+    - { role: ssh-agent, tags: ["ssh-agent"] }
+    - { role: font, tags: ["font"] }
+    - { role: tools, tags: ["tools"] }
+    - { role: fla.git, tags: ["git"] }
+    - { role: vscode, tags: ["ide"] }
+    - { role: devops, tags: ["devops"] }
+    - { role: cloud, tags: ["cloud"] }
+    - { role: dotfiles, tags: ["configuration"] }

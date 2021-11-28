@@ -1,0 +1,79 @@
+# ansible
+ansible_python_interpreter: /usr/bin/python
+ansible_user: fabien
+ansible_become_password: !vault |
+  $ANSIBLE_VAULT;1.1;AES256
+  31643539356432353166323233363064663662383764663435306537346432336165313363643534
+  3932326230396336323837373262353832616232633037340a333461333936643762383864646434
+  62633263633433313066323564363736653637616437663164663565643437613231393161623739
+  3864653237306334610a333334323163373036313235376534336639326634383564343731616431
+  3439
+
+# shell
+shell: bash
+enable_shell_completion: yes
+
+# ssh
+enable_ssh_agent: yes
+
+# tools
+enable_cli_tools: yes
+enable_net_tools: yes
+enable_xwin_tools: yes
+
+# vscode
+vscode_extensions:
+  - 4ops.packer
+  - bungcip.better-toml
+  - chrislajoie.vscode-modelines
+  - davidanson.vscode-markdownlint
+  - eamodio.gitlens
+  - esbenp.prettier-vscode
+  - gitduck.code-streaming
+  - golang.go
+  - hashicorp.terraform
+  - hbenl.vscode-test-explorer
+  - hediet.vscode-drawio
+  - liamdawson.jsonnet-language
+  - littlefoxteam.vscode-python-test-adapter
+  - mervin.markdown-formatter
+  - ms-azuretools.vscode-docker
+  - ms-ceintl.vscode-language-pack-fr
+  - ms-kubernetes-tools.vscode-kubernetes-tools
+  - ms-python.python
+  - ms-python.vscode-pylance
+  - ms-toolsai.jupyter
+  - ms-toolsai.jupyter-keymap
+  - ms-vscode.cpptools
+  - ms-vscode-remote.remote-containers
+  - ms-vscode.test-adapter-converter
+  - pkief.material-icon-theme
+  - redhat.java
+  - redhat.vscode-commons
+  - redhat.vscode-yaml
+  - rust-lang.rust
+  - samuelcolvin.jinjahtml
+  - streetsidesoftware.code-spell-checker
+  - visualstudioexptteam.vscodeintellicode
+  - vscjava.vscode-java-debug
+  - vscjava.vscode-java-dependency
+  - vscjava.vscode-java-pack
+  - vscjava.vscode-java-test
+  - vscjava.vscode-maven
+  - wholroyd.hcl
+  - tomaciazek.ansible
+
+# devops
+enable_kube: yes
+enable_ansible: yes
+enable_terraform: yes
+enable_packer: yes
+
+# cloud
+enable_gcp: yes
+enable_aws: no
+
+# configurations
+dotfiles_repos:
+  - name: perso
+    url: https://github.com/flassagne/dotfiles.git
