@@ -3,7 +3,7 @@
   collections:
     - fla.linux
   roles:
-    - { role: update-distrib, tags: ["update"] }
+    - { role: base, tags: ["base"] }
     - { role: ssh-agent, tags: ["ssh-agent"] }
     - { role: font, tags: ["font"] }
     - { role: tools, tags: ["tools"] }
