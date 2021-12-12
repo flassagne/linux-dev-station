@@ -1,3 +1,7 @@
 # git
 git_name: Fabien Lassagne
 git_email: fabien.lassagne@ultra.io
+
+# cloud
+enable_gcp: yes
+enable_aws: no
