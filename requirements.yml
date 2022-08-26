@@ -1,5 +1,5 @@
 ---
-roles:
-  - name: fla.git
-    src: git@github.com:flassagne/git.git
-    scm: git
+collections:
+  - name: fla.linux
+    source: /home/fabien/work/perso/linux-collection
+    type: dir

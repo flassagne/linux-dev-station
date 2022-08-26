@@ -7,8 +7,8 @@
     - { role: ssh-agent, tags: ["ssh-agent"] }
     - { role: font, tags: ["font"] }
     - { role: tools, tags: ["tools"] }
-    - { role: fla.git, tags: ["git"] }
-    - { role: vscode, tags: ["ide"] }
+    - { role: git, tags: ["git"] }
+    # - { role: vscode, tags: ["ide"] }
     - { role: devops, tags: ["devops"] }
     - { role: cloud, tags: ["cloud"] }
     - { role: dotfiles, tags: ["configuration"] }

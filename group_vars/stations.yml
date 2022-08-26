@@ -17,6 +17,7 @@ enable_shell_completion: yes
 enable_ssh_agent: yes
 
 # tools
+enable_dev_tools: yes
 enable_cli_tools: yes
 enable_net_tools: yes
 enable_xwin_tools: yes
@@ -60,17 +61,17 @@ vscode_extensions:
   - vscjava.vscode-java-pack
   - vscjava.vscode-java-test
   - vscjava.vscode-maven
-  - wholroyd.hcl
+  # - wholroyd.hcl
   - tomaciazek.ansible
 
 # devops
 enable_kube: yes
-enable_ansible: yes
+enable_ansible: no
 enable_terraform: yes
 enable_packer: yes
 
 # cloud
-enable_gcp: yes
+enable_gcp: no
 enable_aws: no
 
 # configurations
